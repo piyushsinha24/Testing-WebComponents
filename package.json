@@ -1,0 +1,26 @@
+{
+  "name": "my-element",
+  "version": "0.0.0",
+  "description": "Webcomponent my-element following open-wc recommendations",
+  "author": "my-element",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server",
+    "test": "karma start karma.conf.js"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.32",
+    "@open-wc/testing-karma": "^4.0.9",
+    "@web/dev-server": "^0.1.1",
+    "chai": "^4.2.0",
+    "deepmerge": "^4.2.2",
+    "karma": "^6.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^2.0.1",
+    "mocha": "^8.2.1"
+  }
+}
